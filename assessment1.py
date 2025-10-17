@@ -9,6 +9,8 @@ def product(num1, num2):
     Returns:
         int: The result of multiplying num1 by num2.
     """
+    product = num1*num2
+    return product
     pass
 
 
@@ -22,6 +24,8 @@ def square(number):
     Returns:
         int: The square of the input number.
     """
+    square = number*number
+    return square
     pass
 
 
@@ -35,6 +39,7 @@ def even(n):
     Returns:
         bool: True if n is even, False otherwise.
     """
+
     pass
 
 
@@ -48,6 +53,9 @@ def sum_of_list(numbers):
     Returns:
         int: The total sum of all numbers in the list.
     """
+    numbers = []
+    sum_of_list = sum(numbers)
+    return numbers
     pass
 
 
@@ -60,7 +68,9 @@ def list_of_even_numbers(numbers):
 
     Returns:
         list of int: A list containing all even numbers less than the given number.
+    
     """
+    
     pass
 
 
@@ -74,4 +84,7 @@ def sum_of_odd_numbers(numbers):
     Returns:
         int: The sum of all odd numbers in the list.
     """
+    numbers = []
+    
+
     pass
